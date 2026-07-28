@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#fff7f6" />
+  <title>Untuk Kamu 🤍</title>
+  <meta name="description" content="Sebuah surat kecil yang kubuat khusus untukmu." />
+
+  <!-- Fonts: Poppins & Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="is-locked">
+
+  <!-- ===== Scroll progress ===== -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ===== Floating hearts layer ===== -->
+  <div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+
+  <!-- =========================================================
+       0. OPENING / GERBANG
+  ========================================================== -->
+  <section class="opening" id="opening">
+    <div class="opening__inner">
+      <div class="opening__seal">🤍</div>
+      <p class="opening__eyebrow">Sebuah surat kecil</p>
+      <h1 class="opening__title">Untuk kamu,<br />orang yang aku pilih.</h1>
+      <p class="opening__note">Luangkan waktu sebentar ya. Aku menulis ini pelan-pelan, jadi bacanya juga pelan-pelan saja.</p>
+      <button class="btn-open ripple" id="btnOpen" type="button">
+        <span>Buka</span>
+      </button>
+    </div>
+    <div class="opening__glow" aria-hidden="true"></div>
+  </section>
+
+  <!-- =========================================================
+       MAIN
+  ========================================================== -->
+  <main id="main" class="main">
+
+    <!-- ============ 1. HERO ============ -->
+    <header class="hero reveal">
+      <p class="hero__eyebrow reveal">Hai, kamu.</p>
+      <h2 class="hero__title reveal">
+        Aku nggak pandai merangkai kata,<br />
+        tapi untuk kamu aku mau belajar.
+      </h2>
+      <p class="hero__sub reveal">
+        Halaman ini aku buat sendiri, pelan-pelan, di sela-sela kesibukan.
+        Bukan karena aku hebat, tapi karena kamu pantas mendapat sesuatu
+        yang dibuat dengan sungguh-sungguh.
+      </p>
+      <div class="hero__scroll reveal" aria-hidden="true">
+        <span>scroll</span>
+        <div class="hero__mouse"><i></i></div>
+      </div>
+    </header>
+
+    <!-- ============ 2. SYUKUR / PERTEMUAN ============ -->
+    <section class="chapter reveal">
+      <p class="chapter__index">01</p>
+      <h3 class="chapter__title">Aku bersyukur dipertemukan denganmu.</h3>
+      <p class="chapter__text">
+        Dari sekian banyak orang, dari sekian banyak jalan yang bisa kita ambil,
+        entah bagaimana kita berakhir di tempat yang sama, pada waktu yang sama.
+        Aku nggak tahu itu disebut apa. Aku cuma tahu aku bersyukur.
+      </p>
+      <p class="chapter__text">
+        Kadang aku diam-diam memikirkannya. Kalau salah satu dari kita
+        mengambil keputusan yang sedikit berbeda saja, mungkin kita nggak akan
+        pernah bertemu. Jadi setiap kali aku melihat kamu, aku ingat betapa
+        beruntungnya aku.
+      </p>
+    </section>
+
+    <!-- ============ 3. GALLERY ============ -->
+    <section class="gallery reveal">
+      <p class="gallery__eyebrow">Beberapa momen kecil kita</p>
+      <h3 class="gallery__title">Yang biasa saja, tapi aku simpan baik-baik.</h3>
+
+      <!-- Foto dimuat otomatis dari folder /img oleh script.js -->
+      <div class="gallery__grid" id="galleryGrid"></div>
+
+      <p class="gallery__caption">
+        Bukan foto yang sempurna. Tapi di situ ada kamu, dan itu sudah lebih dari cukup.
+      </p>
+    </section>
+
+    <!-- ============ 4. TEMPAT PULANG ============ -->
+    <section class="chapter chapter--soft reveal">
+      <p class="chapter__index">02</p>
+      <h3 class="chapter__title">Aku ingin jadi tempat pulangmu.</h3>
+      <p class="chapter__text">
+        Di luar sana kamu mungkin harus kuat, harus tegar, harus terlihat
+        baik-baik saja. Tapi denganku, kamu nggak perlu jadi siapa-siapa.
+        Kamu boleh capek, boleh diam, boleh cerita, boleh nangis.
+      </p>
+      <blockquote class="quote">
+        “Kalau dunia terasa terlalu ramai, semoga aku bisa jadi tempat yang tenang.
+        Tempat kamu bisa menaruh semua lelahmu tanpa takut dihakimi.”
+      </blockquote>
+    </section>
+
+    <!-- ============ 5. BERTUMBUH BERSAMA ============ -->
+    <section class="chapter reveal">
+      <p class="chapter__index">03</p>
+      <h3 class="chapter__title">Aku belum sempurna. Tapi aku sedang berusaha.</h3>
+      <p class="chapter__text">
+        Aku nggak akan pura-pura jadi laki-laki yang tanpa kekurangan. Aku masih
+        belajar, masih sering salah, masih sering kurang. Tapi satu hal yang aku
+        yakin: setiap hari aku mau menjadi versi diriku yang lebih baik, supaya
+        pantas untuk mendampingimu.
+      </p>
+      <blockquote class="quote">
+        “Aku mungkin nggak selalu tahu cara memperbaiki semua keadaan.
+        Tapi aku akan terus belajar, supaya bisa menjadi seseorang yang
+        membuatmu merasa aman.”
+      </blockquote>
+      <p class="chapter__text">
+        Aku ingin kita tumbuh bareng. Bukan aku yang menunggu di depan, bukan
+        kamu yang tertinggal di belakang. Tapi berjalan beriringan, saling
+        menunggu saat yang satu sedang lelah.
+      </p>
+    </section>
+
+    <!-- ============ 6. SUKA & SULIT ============ -->
+    <section class="chapter chapter--soft reveal">
+      <p class="chapter__index">04</p>
+      <h3 class="chapter__title">Aku mau ada, bukan cuma saat mudah.</h3>
+      <p class="chapter__text">
+        Saat senang, semua orang bisa datang. Tapi aku ingin jadi yang tetap
+        tinggal saat keadaan sedang tidak baik-baik saja. Saat kamu sedang di
+        titik terendah, saat kamu merasa nggak ada yang mengerti.
+      </p>
+      <blockquote class="quote">
+        “Aku nggak janji hidup kita akan selalu mudah.
+        Tapi aku janji, kamu nggak akan menjalaninya sendirian.”
+      </blockquote>
+    </section>
+
+    <!-- ============ 7. LOVE LETTER ============ -->
+    <section class="letter reveal" id="letter">
+      <div class="letter__paper">
+        <p class="letter__eyebrow">Surat untukmu</p>
+        <h3 class="letter__greeting">Untuk kamu yang sedang membaca ini,</h3>
+
+        <!-- ======================================================
+             GANTI ISI SURAT DI BAWAH INI SESUKA KAMU.
+             Tulis apa adanya, nggak usah rapi-rapi banget.
+             Justru yang jujur itu yang paling nyampe.
+        ======================================================= -->
+        <div class="letter__body">
+          <p>
+            Aku nulis surat ini bukan di hari spesial, bukan di tanggal yang
+            penting. Aku nulisnya di hari biasa, karena aku sadar justru di
+            hari-hari biasa itulah aku paling sering bersyukur punya kamu.
+          </p>
+          <p>
+            Terima kasih ya. Untuk sabarnya, untuk pengertiannya, untuk tetap
+            memilih aku bahkan di hari-hari saat aku sendiri merasa aku bukan
+            pilihan yang mudah. Aku tahu aku nggak selalu bisa jadi yang kamu
+            butuhkan. Tapi tolong percaya, aku selalu berusaha.
+          </p>
+          <p>
+            <em>[ Tulis di sini cerita atau kenangan kalian yang paling kamu ingat.
+            Misalnya pertama kali ketemu, momen paling lucu, atau saat kamu
+            sadar kamu beneran sayang sama dia. ]</em>
+          </p>
+          <p>
+            Aku nggak tahu masa depan bakal bawa kita ke mana. Tapi kalau boleh
+            memilih, aku mau memilih kamu. Bukan cuma hari ini, tapi juga besok,
+            lusa, dan di hari-hari saat kita udah nggak semuda sekarang.
+          </p>
+          <p>
+            Kalau suatu hari nanti kita sama-sama lelah, semoga kita tetap
+            memilih untuk duduk bersama, saling menggenggam tangan, dan mengingat
+            alasan kenapa kita memulai semuanya.
+          </p>
+        </div>
+
+        <p class="letter__sign">Yang selalu berusaha untukmu,</p>
+        <p class="letter__name">— [ Muhammad Mabrur Al Mutaqi - Pacarmu ]</p>
+      </div>
+    </section>
+
+    <!-- ============ 8. TIMELINE ============ -->
+    <section class="timeline reveal" id="timeline">
+      <p class="timeline__eyebrow">Perjalanan kita</p>
+      <h3 class="timeline__title">Sedikit demi sedikit, sampai sejauh ini.</h3>
+
+      <!-- ======================================================
+           GANTI TANGGAL & CERITANYA SESUAI PERJALANAN KALIAN.
+      ======================================================= -->
+      <ol class="timeline__list">
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <p class="timeline__date">[ 2 Oktober 2025 ]</p>
+          <h4 class="timeline__heading">Awal kita kenal</h4>
+          <p class="timeline__text">[ Kamu ingat gak pas aku nge DM pas di TikTok waktu itu ajak kenalan kamu. ]</p>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <p class="timeline__date">[ 17 Februari 2026 ]</p>
+          <h4 class="timeline__heading">Momen yang bikin yakin</h4>
+          <p class="timeline__text">[ Pas aku ajak kamu ngedate pertama pas kita nonton di Nagoya yang pulangnya kita makan makanan indian food. Kita ngobrol banyak dan disitu aku merasa cocok samamu. ]</p>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <p class="timeline__date">[ 12 Mei 2026 ]</p>
+          <h4 class="timeline__heading">Kita resmi bersama</h4>
+          <p class="timeline__text">[ Hari pertama kita jadian, aku nembak kamu dan kamu terima. Aku senang banget dan gk nyangka kamu bakalan nerima aku. ]</p>
+        </li>
+        <li class="timeline__item reveal">
+          <span class="timeline__dot" aria-hidden="true"></span>
+          <p class="timeline__date">Hari ini &amp; seterusnya</p>
+          <h4 class="timeline__heading">Masih terus berlanjut</h4>
+          <p class="timeline__text">Dan aku harap, cerita kita nggak berhenti di sini.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ 9. MENJAGA HATI ============ -->
+    <section class="chapter reveal">
+      <p class="chapter__index">05</p>
+      <h3 class="chapter__title">Aku ingin menjaga hatimu.</h3>
+      <p class="chapter__text">
+        Hatimu itu bukan mainan buatku. Kamu sudah cukup sering dikecewakan,
+        dan aku nggak mau menambah daftar itu. Aku ingin jadi orang yang membuat
+        kamu percaya lagi bahwa dicintai itu nggak harus menyakitkan.
+      </p>
+      <blockquote class="quote">
+        “Aku ingin kamu merasa dicintai bukan cuma lewat kata-kata,
+        tapi lewat cara aku memperlakukanmu setiap hari.”
+      </blockquote>
+    </section>
+
+    <!-- ============ 10. SAMPAI TUA ============ -->
+    <section class="chapter chapter--soft reveal">
+      <p class="chapter__index">06</p>
+      <h3 class="chapter__title">Bukan cuma sekarang, tapi sampai nanti.</h3>
+      <p class="chapter__text">
+        Aku nggak mau cuma jadi orang yang manis di awal. Aku mau jadi orang yang
+        tetap memilih kamu saat semuanya udah nggak baru lagi. Saat rambut kita
+        sudah mulai memutih, saat langkah kita sudah pelan.
+      </p>
+      <p class="chapter__text">
+        Aku ingin tetap menggandeng tanganmu, tetap menyeduhkan teh di pagi hari,
+        tetap menanyakan kabarmu, tetap memilihmu — lagi dan lagi.
+      </p>
+    </section>
+
+    <!-- ============ 11. PENUTUP ============ -->
+    <section class="closing reveal" id="closing">
+      <p class="closing__eyebrow">Dan pada akhirnya, cuma ini yang mau kubilang:</p>
+      <h2 class="closing__big">I Love You.</h2>
+      <p class="closing__line">
+        Bukan cinta yang cuma ramai di awal, tapi cinta yang memilihmu setiap
+        hari, menjaga janjinya diam-diam, dan berharap bisa menua bersamamu.
+      </p>
+
+      <button class="btn-hug ripple" id="btnHug" type="button">Peluk Virtual 🤍</button>
+      <p class="closing__hug-msg" id="hugMsg" aria-live="polite"></p>
+
+      <p class="closing__footer">Dibuat khusus untukmu 🤍</p>
+    </section>
+
+  </main>
+
+  <!-- ===== Back to top ===== -->
+  <button class="back-top" id="backTop" type="button" aria-label="Kembali ke atas">↑</button>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Tutup">✕</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
